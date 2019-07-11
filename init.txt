@@ -1,0 +1,14 @@
+vue create toeic
+cd toeic
+vue add vuetify
+npm install vue-router --save
+npm install vuex --save
+
+firebase login
+firebase init
+
+npm run serve
+yarn build
+firebase use --add
+firebase deploy
+
