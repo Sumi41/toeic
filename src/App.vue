@@ -9,8 +9,8 @@
 			<v-btn color="red lighten-2" dark @click="" icon><v-icon dark>check</v-icon></v-btn>
 		</router-link>
 
-		<input v-model='totalNum' style='width:42px;'></input>→
-		<v-btn @click='changeNum'>change num</v-btn>
+<!--		<input v-model='totalNum' style='width:42px;'></input>→
+		<v-btn @click='changeNum'>change num</v-btn>-->
 	</v-footer>
   </v-app>
 </template>
