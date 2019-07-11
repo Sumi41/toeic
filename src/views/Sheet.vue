@@ -56,6 +56,8 @@ export default {
 		initAnswers(){
 			this.answers=new Array(Number(this.totalNum)).fill("answers");
 			store.commit('updateAnswers',this.answers);
+			this.vagues=new Array(200).fill(false);
+			store.commit("updateVagues",this.vagues);
 		},
 	}
 }
